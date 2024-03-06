@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Stopwatch",
+    "version": "1.0",
+    "description": "A simple stopwatch extension",
+    "author": "The Cipher Vivek",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+    "browser_action": {
+      "default_popup": "index.html",
+    "default_icon": {
+        "128": "images/VenV.png"
+    }
+    },
+    "permissions": ["storage"]
+  }
